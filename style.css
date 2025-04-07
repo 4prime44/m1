@@ -201,7 +201,6 @@ margin: 5%;
 .page4 .p4div div{
     margin: auto;
     margin-left: 5%;
-    width: 45%;
 }
 .page4 .p4div section{
     width:400px;
@@ -218,7 +217,7 @@ margin: 5%;
 .page4 .p4div{
     display: flex;
     flex-direction: row;
-
+    
 }
 .page4 .p4div section{
     display: flex;
@@ -328,9 +327,13 @@ margin: 5%;
     flex-direction: column;
 }
 .page6 div p:nth-child(1){
+    width: 80%;
     font-size: 32px;
     font-weight: 600;
+    margin: auto;
+    text-align: center;
     margin-bottom: 0;
+
 }
 .page6 div p:nth-child(2){
     font-size: 20px;
@@ -343,7 +346,8 @@ margin: 5%;
     flex-wrap: wrap;
 }
 .page6 .p6half .p6img{
-    width: 30%;
+    width: 380px;
+    height: 400px;
     margin: auto;
 }
 .page6 .p6half div:nth-child(1){
@@ -522,8 +526,20 @@ footer .f2 p:nth-child(1){
 footer div p{
     color: #5E6282; 
 }
-
+@media screen and (max-width: 600px) {
+    .page6 .p6half .p6img{
+        scale: 0.6;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
 @media screen and (max-width: 768px) {
+    .page6 .p6half .p6img{
+        width: 300px;
+        height: 300px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
     .page1 nav{
         font-size: 15px;
     }
@@ -551,6 +567,15 @@ footer div p{
     .page8 .p8box p{
         font-size: 25px;
     }
+    .page4 .p4div section{   
+        scale: 0.8; 
+            }
+    .page5 .p5loc section{
+        scale: 0.9;
+            }
+    footer{
+        width: 80%;
+    }
     footer .f2{
 
         font-size:10px;
@@ -566,6 +591,9 @@ footer div p{
     
 }}
 @media screen and (max-width:1000px) {
+    .page6 .p6half .p6img{
+        margin-bottom: 10%;
+    }
     .page4 .p4div .p4map{
         display: none;
     }
@@ -590,5 +618,10 @@ footer div p{
         width: 50px;
         height: 50px;
         margin-top: -150px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .page6 .p6half div:nth-child(1) section{
+        scale: 0.9;
     }
 }
