@@ -200,9 +200,7 @@ margin: 5%;
     margin-right: 5%;
 }
 .page4 .p4div div{
-    
     margin: auto;
-    margin-left: 5%;
     overflow: hidden;
 }
 .page4 .p4div section{
@@ -212,7 +210,7 @@ margin: 5%;
     border-radius:5px;
     height: 125px;
     margin: auto;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
     padding-right: 2%;
     
 }
@@ -407,7 +405,9 @@ margin: 5%;
     padding-top: 3%;
     font-size: 40px;
     font-weight: 500;
-    width: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto  ;
     text-align: center;
 }
 .page7 .p7main{
@@ -459,7 +459,8 @@ margin: 5%;
     width: 70%;
     margin: auto;
     background-color: #32df8e1b;
-    height: 400px;
+    height: max-content;
+    padding: 5%;
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -620,6 +621,23 @@ footer div p{
     .page5 .p5loc section{
         scale: 0.9;
             }
+    .page8 .p8box{
+         height: max-content;
+         padding: 5%;}
+    .page8 .p8box p{
+    font-size: 15px;
+    }
+    .page8 .p8box .p8mail input{
+        width: 50%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .page8 .p8box .p8mail button{
+        width: 50%;
+    }
+    .page8 .p8box .p8mail {
+        flex-direction: column;
+    }
     footer{
         width: 80%;
     }
