@@ -9,6 +9,7 @@ body{
     width: 100vw;
     font-style: normal;
     overflow-x: hidden;
+    
 }
 .page1{
     width: 100vw;
@@ -58,6 +59,7 @@ body{
     align-items: center;
     height: 70%;
     flex-direction: column;
+    
 }
 .page1 .maintitle p:nth-child(1){
     width: 60%;
